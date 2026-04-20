@@ -1,0 +1,21 @@
+# Maven build output
+target/
+
+# Allure generated results
+allure-results/
+allure-report/
+
+# TestNG generated output
+test-output/
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Compiled Java classes
+*.class
+
+# OS files
+.DS_Store
+Thumbs.db

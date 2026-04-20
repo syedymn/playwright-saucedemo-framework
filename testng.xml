@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Playwright Suite" parallel="tests" thread-count="2">
+    <test name="Login Tests">
+        <classes>
+            <class name="playwright_saucedemo_framework.playwrighttest.LoginTests"/>
+        </classes>
+    </test>
+    <test name="Checkout Tests">
+        <classes>
+            <class name="playwright_saucedemo_framework.playwrighttest.CheckoutTests"/>
+        </classes>
+    </test>
+</suite>
