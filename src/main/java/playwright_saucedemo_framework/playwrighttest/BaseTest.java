@@ -31,7 +31,7 @@ package playwright_saucedemo_framework.playwrighttest;
 
 	        Browser browser = playwright.chromium().launch(
 	            new BrowserType.LaunchOptions()
-	                .setHeadless(false)
+	                .setHeadless(true)
 	        );
 	        browserThread.set(browser);
 
